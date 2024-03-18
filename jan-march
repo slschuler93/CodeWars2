@@ -1,0 +1,65 @@
+//switch it up 8 kyu
+function switchItUp(number){
+  const numbers = {0: "Zero", 1: "One", 2: "Two", 3: "Three", 4: "Four", 5: "Five", 6: "Six", 
+  7: "Seven", 8: "Eight", 9: "Nine"}
+  return numbers[number];
+}
+
+//century from year 8 kyu
+function century(year) {
+  return Math.ceil(year / 100);
+}
+
+//5 without numbers! 8 kyu
+function unusualFive() {
+  return 'aaaaa'.length;
+}
+
+//multiply 8 kyu
+function multiply(a, b){
+  return a * b
+}
+
+//super duper easy 8 kyu
+function problem(x){
+  return typeof x === "number" ? x * 50 + 6 : "Error";
+}
+
+//aLtErNaTiNg CaSe 8 kyu
+String.prototype.toAlternatingCase = function () {
+let str = '';
+  for(let i = 0; i< this.length; i++){
+    if (this[i] == this[i].toLowerCase()){ 
+      str += this[i].toUpperCase();
+    } else {
+      str += this[i].toLowerCase();
+    }
+  }
+  return str;
+}
+
+//basic mathematical operations 8 kyu
+function basicOp(operation, value1, value2)
+{
+  switch (operation) {
+    case '+':
+      return value1 + value2;
+    case '-':
+      return value1 - value2;
+    case '*':
+      return value1 * value2;
+    case '/':
+      return value1 / value2;
+  }
+}
+
+//reversed strings 8 kyu
+function solution(str){
+  return str.split('').reverse().join('');  
+}
+
+//highest and lowest 7 kyu
+function highAndLow(numbers){
+ numbers = numbers.split(" ");
+  return Math.max.apply(null, numbers) + " " + Math.min.apply(null, numbers)
+}
