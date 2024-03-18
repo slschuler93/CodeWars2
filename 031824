@@ -1,0 +1,32 @@
+//multiply the number 7 kyu
+function multiply(number) {
+  return number * (5 ** String(Math.abs(number)).length);
+}
+
+//remove exclamation marks 8 kyu
+function removeExclamationMarks(s) {
+  return s.replace(/!/gi, '');
+}
+
+//welcome! 8 kyu
+greet = language =>
+(hello => hello [language]|| 'Welcome')({
+    english: 'Welcome',
+    czech: 'Vitejte',
+    danish: 'Velkomst',
+    dutch: 'Welkom',
+    estonian: 'Tere tulemast',
+    finnish: 'Tervetuloa',
+    flemish: 'Welgekomen',
+    french: 'Bienvenue',
+    german: 'Willkommen',
+    irish: 'Failte',
+    italian: 'Benvenuto',
+    latvian: 'Gaidits',
+    lithuanian: 'Laukiamas',
+    polish: 'Witamy',
+    spanish: 'Bienvenido',
+    swedish: 'Valkommen',
+    welsh: 'Croeso'    
+    }
+    )
