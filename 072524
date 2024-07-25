@@ -1,0 +1,9 @@
+Array.diff 6 kyu
+function arrayDiff(a, b) {
+  return a.filter(x => !b.includes(x));
+}
+
+List Filtering 7 kyu
+function filter_list(l) {
+  return l.filter(str => typeof str != 'string');
+}
