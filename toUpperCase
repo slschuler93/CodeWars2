@@ -1,0 +1,4 @@
+Is the string UPPERCASE? JS 8kyu
+String.prototype.isUpperCase = function(){
+  return this == this.toUpperCase()
+}
