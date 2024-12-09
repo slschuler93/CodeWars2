@@ -1,0 +1,4 @@
+Shortest Word JS 7 kyu
+function findShort(s){
+  return Math.min(...s.split(' ').map(w => w.length));
+}
