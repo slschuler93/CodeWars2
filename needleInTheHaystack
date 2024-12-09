@@ -1,0 +1,8 @@
+Find the Needle in the Haystack JS 8 kyu
+function findNeedle(haystack) {
+for(let i = 0; i<haystack.length; i++){
+  if (haystack[i] =='needle'){
+    return `found the needle at position ${i}`
+    }
+  }
+}
