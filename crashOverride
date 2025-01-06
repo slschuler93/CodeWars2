@@ -1,0 +1,14 @@
+//Crash Override 8 kyu Javascript
+
+function aliasGen(f,l){
+ const first = f.charAt(0).toUpperCase();
+  const last = l.charAt(0).toUpperCase();
+
+  const firstAlias = firstName[first];
+  const lastAlias = surname[last];
+
+  if (!firstAlias || !lastAlias) {
+    return 'Your name must start with a letter from A - Z.';
+  }
+  return firstAlias + ' ' + lastAlias;
+}
